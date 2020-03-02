@@ -199,7 +199,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=false \
     ro.telephony.default_network=20,20 \
     vendor.service.qti.ims.enabled=1 \
-    telephony.lteOnCdmaDevice=1
+    telephony.lteOnCdmaDevice=1 \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # Shutdown timeout
 PRODUCT_PROPERTY_OVERRIDES += \
